@@ -72,24 +72,6 @@ public class QrupIsi2Demo_Shop extends BaseDriver {
         loginBtn2.click();
         MyFunc.Wait(2);
 
-        WebElement productClick = driver.findElement(By.xpath("//*[text()='Build your own expensive computer']"));
-        productClick.click();
-        MyFunc.Wait(2);
-
-        WebElement addToCart = driver.findElement(By.xpath("//input[@id='add-to-cart-button-74']"));
-        addToCart.click();
-        MyFunc.Wait(5);
-
-        WebElement shopCart = driver.findElement(By.xpath("//*[@id='topcartlink']"));
-        shopCart.click();
-        MyFunc.Wait(2);
-
-        WebElement webSelect = driver.findElement(By.xpath("//*[@class='country-input valid']"));
-
-        Select javaSelect = new Select(webSelect);
-        javaSelect.selectByIndex(17);
-        MyFunc.Wait(2);
-
         GozleBagla();
     }
 }
