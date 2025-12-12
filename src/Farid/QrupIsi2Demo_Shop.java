@@ -72,6 +72,7 @@ public class QrupIsi2Demo_Shop extends BaseDriver {
         loginBtn2.click();
         MyFunc.Wait(2);
 
+
         GozleBagla();
     }
 }
