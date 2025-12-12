@@ -118,6 +118,7 @@ public class QrupIsi2Demo_Shop_Negative extends BaseDriver {
         loginBtn6.click();
         MyFunc.Wait(2);
 
+
         GozleBagla();
     }
 }
