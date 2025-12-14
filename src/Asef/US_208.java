@@ -109,9 +109,6 @@ public class US_208 extends BaseDriver {
         MyFunc.Wait(2);
 
 
-
-
-
         WebElement country= driver.findElement(By.xpath(
                 "//select[@id='CountryId']/option[@value='8']"));
         country.click();
